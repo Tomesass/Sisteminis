@@ -1,0 +1,2 @@
+vardas1 pavarde1 1 2 3 10
+vardas2 pavarde2 3 2 1 5
