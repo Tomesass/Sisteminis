@@ -1,10 +1,14 @@
 ﻿  Main.cpp
-C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(61,13): warning C4244: '=': conversion from 'unsigned __int64' to 'double', possible loss of data
-C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(76,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(81,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(31,7): warning C4101: 'paz': unreferenced local variable
-C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(133,13): warning C4244: '=': conversion from 'unsigned __int64' to 'double', possible loss of data
-C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(148,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(153,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(107,7): warning C4101: 'paz': unreferenced local variable
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(115,14): warning C4244: '=': conversion from 'unsigned __int64' to 'double', possible loss of data
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(130,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(135,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(81,7): warning C4101: 'paz': unreferenced local variable
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(144,14): warning C4101: 'error4': unreferenced local variable
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(198,14): warning C4244: '=': conversion from 'unsigned __int64' to 'double', possible loss of data
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(215,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(220,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(164,7): warning C4101: 'paz': unreferenced local variable
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(230,14): warning C4101: 'error3': unreferenced local variable
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(293,16): warning C4101: 'error2': unreferenced local variable
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(338,14): warning C4101: 'error': unreferenced local variable
   Sisteminis.vcxproj -> C:\Users\tomus\source\repos\Sisteminis\x64\Debug\Sisteminis.exe
