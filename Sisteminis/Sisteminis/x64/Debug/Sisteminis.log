@@ -22,5 +22,6 @@ C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(240,14): warning C410
 C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(284,16): warning C4101: 'error6': unreferenced local variable
 C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(297,16): warning C4101: 'error7': unreferenced local variable
 C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(316,16): warning C4101: 'error2': unreferenced local variable
-C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(360,14): warning C4101: 'error': unreferenced local variable
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(645,16): warning C4101: 'error10': unreferenced local variable
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(652,14): warning C4101: 'error': unreferenced local variable
   Sisteminis.vcxproj -> C:\Users\tomus\source\repos\Sisteminis\x64\Debug\Sisteminis.exe

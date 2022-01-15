@@ -320,8 +320,272 @@ class ndZinomi {
 		}
 	};
 
+class failasGeneruoti1 {
+public:
+	failasGeneruoti1() {
+
+		int x = 1;
+		int nd1;
+		int nd2;
+		int nd3;
+		int nd4;
+		int nd5;
+		double egz;
+		double galutinis = 0;
+		double vid = 0;
+		double sum = 0;
 
 
+		ofstream sar1("Sarasas1.txt");
+		ofstream sar11("Vargsiukai1.txt");
+		ofstream sar12("Galvociai1.txt");
+
+		sar1 << "Vardas " << "  Pavarde" << "  nd1" << "  nd2" << "  nd3" << "  nd4" << "  nd5" << " egz\n";
+		sar1 << "----------------------------------------------------------------------------------------\n";
+		for (int i = 0; i < 1000; i++) {
+			nd1 = rand() % 10 + 1;
+			nd2 = rand() % 10 + 1;
+			nd3 = rand() % 10 + 1;
+			nd4 = rand() % 10 + 1;
+			nd5 = rand() % 10 + 1;
+			egz = rand() % 10 + 1;
+			sum = nd1 + nd2 + nd3 + nd4 + nd5;
+			vid =(double) sum / 5;
+			galutinis =(double) (0.4 * vid) + (0.6 * egz);
+
+			sar1 << "Vardas" << x << "  " << "Pavarde" << x << "  " << nd1 << "  " << nd2 << "  " << nd3 << "  " << nd4 << "  " << nd5 << "  " << egz <<"  Galutinis: "<<galutinis << endl;
+
+			if (galutinis < 5) {
+
+				sar11 << "Vardas" << x << "  " << "Pavarde" << x << "  " << nd1 << "  " << nd2 << "  " << nd3 << "  " << nd4 << "  " << nd5 << "  " << egz << "  Galutinis: " << galutinis << endl;
+			}
+			else if (galutinis >= 5) {
+
+				sar12 << "Vardas" << x << "  " << "Pavarde" << x << "  " << nd1 << "  " << nd2 << "  " << nd3 << "  " << nd4 << "  " << nd5 << "  " << egz << "  Galutinis: " << galutinis << endl;
+				
+			}
+			x++;
+		}
+
+		sar11.close();
+		sar12.close();
+		sar1.close();
+
+
+		}
+};
+
+class failasGeneruoti2 {
+public:
+	failasGeneruoti2() {
+
+		int x = 1;
+		int nd1;
+		int nd2;
+		int nd3;
+		int nd4;
+		int nd5;
+		double egz;
+		double galutinis = 0;
+		double vid = 0;
+		double sum = 0;
+
+
+		ofstream sar2("Sarasas2.txt");
+		ofstream sar21("Vargsiukai2.txt");
+		ofstream sar22("Galvociai2.txt");
+
+		sar2 << "Vardas " << "  Pavarde" << "  nd1" << "  nd2" << "  nd3" << "  nd4" << "  nd5" << " egz\n";
+		sar2 << "----------------------------------------------------------------------------------------\n";
+
+		for (int i = 0; i < 10000; i++) {
+			nd1 = rand() % 10 + 1;
+			nd2 = rand() % 10 + 1;
+			nd3 = rand() % 10 + 1;
+			nd4 = rand() % 10 + 1;
+			nd5 = rand() % 10 + 1;
+			egz = rand() % 10 + 1;
+			sum = nd1 + nd2 + nd3 + nd4 + nd5;
+			vid = (double)sum / 5;
+			galutinis = (double)(0.4 * vid) + (0.6 * egz);
+
+			sar2 << "Vardas" << x << "  " << "Pavarde" << x << "  " << nd1 << "  " << nd2 << "  " << nd3 << "  " << nd4 << "  " << nd5 << "  " << egz << endl;
+
+			if (galutinis < 5) {
+
+				sar21 << "Vardas" << x << "  " << "Pavarde" << x << "  " << nd1 << "  " << nd2 << "  " << nd3 << "  " << nd4 << "  " << nd5 << "  " << egz << "  Galutinis: " << galutinis << endl;
+			}
+			else if (galutinis >= 5) {
+
+				sar22 << "Vardas" << x << "  " << "Pavarde" << x << "  " << nd1 << "  " << nd2 << "  " << nd3 << "  " << nd4 << "  " << nd5 << "  " << egz << "  Galutinis: " << galutinis << endl;
+			}
+			x++;
+		}
+			sar2.close();
+			sar21.close();
+			sar22.close();
+	}
+};
+
+class failasGeneruoti3 {
+public:
+	failasGeneruoti3() {
+
+		int x = 1;
+		int nd1;
+		int nd2;
+		int nd3;
+		int nd4;
+		int nd5;
+		double egz;
+		double galutinis = 0;
+		double vid = 0;
+		double sum = 0;
+
+
+		ofstream sar3("Sarasas3.txt");
+		ofstream sar31("Vargsiukai3.txt");
+		ofstream sar32("Galvociai3.txt");
+
+		sar3 << "Vardas " << "  Pavarde" << "  nd1" << "  nd2" << "  nd3" << "  nd4" << "  nd5" << " egz\n";
+		sar3 << "----------------------------------------------------------------------------------------\n";
+
+		for (int i = 0; i < 100000; i++) {
+			nd1 = rand() % 10 + 1;
+			nd2 = rand() % 10 + 1;
+			nd3 = rand() % 10 + 1;
+			nd4 = rand() % 10 + 1;
+			nd5 = rand() % 10 + 1;
+			egz = rand() % 10 + 1;
+			sum = nd1 + nd2 + nd3 + nd4 + nd5;
+			vid = (double)sum / 5;
+			galutinis = (double)(0.4 * vid) + (0.6 * egz);
+
+			sar3 << "Vardas" << x << "  " << "Pavarde" << x << "  " << nd1 << "  " << nd2 << "  " << nd3 << "  " << nd4 << "  " << nd5 << "  " << egz << endl;
+
+			if (galutinis < 5) {
+
+				sar31 << "Vardas" << x << "  " << "Pavarde" << x << "  " << nd1 << "  " << nd2 << "  " << nd3 << "  " << nd4 << "  " << nd5 << "  " << egz << "  Galutinis: " << galutinis << endl;
+			}
+			else if (galutinis >= 5) {
+
+				sar32 << "Vardas" << x << "  " << "Pavarde" << x << "  " << nd1 << "  " << nd2 << "  " << nd3 << "  " << nd4 << "  " << nd5 << "  " << egz << "  Galutinis: " << galutinis << endl;
+			}
+
+			x++;
+		}
+		sar3.close();
+		sar31.close();
+		sar32.close();
+	}
+};
+
+class failasGeneruoti4 {
+public:
+	failasGeneruoti4() {
+
+		int x = 1;
+		int nd1;
+		int nd2;
+		int nd3;
+		int nd4;
+		int nd5;
+		double egz;
+		double galutinis = 0;
+		double vid = 0;
+		double sum = 0;
+
+
+		ofstream sar4("Sarasas4.txt");
+		ofstream sar41("Vargsiukai4.txt");
+		ofstream sar42("Galvociai4.txt");
+
+		sar4 << "Vardas " << "  Pavarde" << "  nd1" << "  nd2" << "  nd3" << "  nd4" << "  nd5" << " egz\n";
+		sar4 << "----------------------------------------------------------------------------------------\n";
+
+		for (int i = 0; i < 1000000; i++) {
+			nd1 = rand() % 10 + 1;
+			nd2 = rand() % 10 + 1;
+			nd3 = rand() % 10 + 1;
+			nd4 = rand() % 10 + 1;
+			nd5 = rand() % 10 + 1;
+			egz = rand() % 10 + 1;
+			sum = nd1 + nd2 + nd3 + nd4 + nd5;
+			vid = (double)sum / 5;
+			galutinis = (double)(0.4 * vid) + (0.6 * egz);
+
+			sar4 << "Vardas" << x << "  " << "Pavarde" << x << "  " << nd1 << "  " << nd2 << "  " << nd3 << "  " << nd4 << "  " << nd5 << "  " << egz << endl;
+
+			if (galutinis < 5) {
+
+				sar41 << "Vardas" << x << "  " << "Pavarde" << x << "  " << nd1 << "  " << nd2 << "  " << nd3 << "  " << nd4 << "  " << nd5 << "  " << egz << "  Galutinis: " << galutinis << endl;
+			}
+			else if (galutinis >= 5) {
+
+				sar42 << "Vardas" << x << "  " << "Pavarde" << x << "  " << nd1 << "  " << nd2 << "  " << nd3 << "  " << nd4 << "  " << nd5 << "  " << egz << "  Galutinis: " << galutinis << endl;
+			}
+
+			x++;
+		}
+		sar4.close();
+		sar41.close();
+		sar42.close();
+	}
+};
+
+class failasGeneruoti5 {
+public:
+	failasGeneruoti5() {
+
+		int x = 1;
+		int nd1;
+		int nd2;
+		int nd3;
+		int nd4;
+		int nd5;
+		double egz;
+		double galutinis = 0;
+		double vid = 0;
+		double sum = 0;
+
+
+		ofstream sar5("Sarasas5.txt");
+		ofstream sar51("Vargsiukai5.txt");
+		ofstream sar52("Galvociai5.txt");
+
+		sar5 << "Vardas " << "  Pavarde" << "  nd1" << "  nd2" << "  nd3" << "  nd4" << "  nd5" << " egz\n";
+		sar5 << "----------------------------------------------------------------------------------------\n";
+
+
+		for (int i = 0; i < 10000000; i++) {
+			nd1 = rand() % 10 + 1;
+			nd2 = rand() % 10 + 1;
+			nd3 = rand() % 10 + 1;
+			nd4 = rand() % 10 + 1;
+			nd5 = rand() % 10 + 1;
+			egz = rand() % 10 + 1;
+			sum = nd1 + nd2 + nd3 + nd4 + nd5;
+			vid = (double)sum / 5;
+			galutinis = (double)(0.4 * vid) + (0.6 * egz);
+
+			sar5 << "Vardas" << x << "  " << "Pavarde" << x << "  " << nd1 << "  " << nd2 << "  " << nd3 << "  " << nd4 << "  " << nd5 << "  " << egz << endl;
+	
+			if (galutinis < 5) {
+
+				sar51 << "Vardas" << x << "  " << "Pavarde" << x << "  " << nd1 << "  " << nd2 << "  " << nd3 << "  " << nd4 << "  " << nd5 << "  " << egz << "  Galutinis: " << galutinis << endl;
+			}
+			else if (galutinis >= 5) {
+
+				sar52 << "Vardas" << x << "  " << "Pavarde" << x << "  " << nd1 << "  " << nd2 << "  " << nd3 << "  " << nd4 << "  " << nd5 << "  " << egz << "  Galutinis: " << galutinis << endl;
+			}
+			
+			x++;
+		}
+		sar5.close();
+		sar51.close();
+		sar52.close();
+	}
+};
 
 	int main() {
 
@@ -334,6 +598,7 @@ class ndZinomi {
 			cout << "2 - Namu darbu kiekis zinomas(4)\n";
 			cout << "3 - Namu darbai generuojami atsitiktinai\n";
 			cout << "4 - Skaitymas is failo\n";
+			cout << "5 - Sarasu generavimas ir skirstymas (Vargsiukai/Galvociai)\n";
 
 			cin >> pasirinkimas;
 
@@ -353,8 +618,35 @@ class ndZinomi {
 				cout << "-------------------------------------------------------\n";
 				ndFailas obj;
 			}
-
-			if (pasirinkimas > 4) {
+			else if (pasirinkimas == 5) {
+				try {
+					int x;
+					cout << "Kelinta sarasa norite spausdinti? 1-5\n";
+					cin >> x;
+					if (x > 5 || x < 1) {
+						throw 10;
+					}
+					if (x == 1) {
+						failasGeneruoti1 obj;
+					}
+					else if (x == 2) {
+						failasGeneruoti2 obj2;
+					}
+					else if (x == 3) {
+						failasGeneruoti3 obj3;
+					}
+					else if (x == 4) {
+						failasGeneruoti4 obj4;
+					}
+					else if (x == 5) {
+						failasGeneruoti5 obj5;
+					}
+				}
+				catch (int error10) {
+					cout << "Blogai pasirinktas sarasas 1-5 !\n";
+				}
+			}
+			if (pasirinkimas > 5) {
 				throw 1; }
 		}
 		catch (int error) {
