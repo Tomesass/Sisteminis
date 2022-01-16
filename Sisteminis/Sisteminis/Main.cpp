@@ -12,13 +12,6 @@
 using namespace std;
 //using namespace N;
 
-void showlist(list <int> g) {
-	list <int> ::iterator it;
-	for (it = g.begin(); it != g.end(); ++it)
-		cout << '\t' << *it;
-	cout << '\n';
-}
-
 
 class ndFailas {
 public:
@@ -97,19 +90,15 @@ public:
 		sort(pazymiai.begin(), pazymiai.end());
 		for (auto x : pazymiai);
 
-		for (const int& i : pazymiai) {
-			cout << i << " ";
-		}
-
 		try {
-			cout << " iveskite egzamino pazymi" << endl;
+			cout << "Iveskite egzamino pazymi" << endl;
 			cin >> egzPaz;
 			if (egzPaz > 10 || egzPaz < 1) {
 				throw 4;
 			}
 			vid = sum / pazymiai.size();
 			try {
-				cout << " pasirinkite vidurki ar mediana\n";
+				cout << "Pasirinkite vidurki ar mediana\n";
 				cout << "vidurkis - 1\n";
 				cout << "mediana - 2\n";
 				cin >> pasirinkimas;
@@ -124,7 +113,7 @@ public:
 				galutinis = (0.4 * vid) + (0.6 + egzPaz);
 				cout << "Vardas  |  Pavarde  |   Galutinis (Vid.)" << endl;
 				cout << "------------------------------------" << endl;
-				cout << vardas << " | " << pavarde << " | " << galutinis << setprecision(3);
+				cout << setw(5) << vardas << " | " << setw(5) << pavarde << " | " << setw(5) << galutinis << setprecision(3);
 			}
 			else if (pasirinkimas == 2) {
 				if (pazymiai.size() % 2 == 0) {
@@ -182,12 +171,6 @@ public:
 			pazymiai.pop_back();
 
 			sort(pazymiai.begin(), pazymiai.end());
-			for (auto x : pazymiai);
-
-			for (const int& i : pazymiai) {
-				cout << i << " ";
-			}
-			cout << pazymiai.size();
 
 			try {
 
@@ -272,9 +255,8 @@ class ndZinomi {
 					sum += paz;
 				}
 
-				showlist(ndRez);
 				try {
-					cout << " iveskite egzamino pazymi" << endl;
+					cout << "Iveskite egzamino pazymi" << endl;
 					cin >> egzPaz;
 					vid = sum / 4;
 					if (egzPaz > 10 || egzPaz < 1) {
@@ -302,7 +284,7 @@ class ndZinomi {
 					galutinis = (0.4 * vid) + (0.6 + egzPaz);
 					cout << "Vardas  |  Pavarde  |   Galutinis (Vid.)" << endl;
 					cout << "------------------------------------" << endl;
-					cout << vardas << " | " << pavarde << " | " << galutinis << setprecision(3);
+					cout << setw(5) << vardas << " | " << setw(5) << pavarde << " | " << setw(13) << galutinis << setprecision(3);
 				}
 				else if (pasirinkimas == 2) {
 					ndRez.pop_back();
@@ -621,7 +603,7 @@ public:
 			else if (pasirinkimas == 5) {
 				try {
 					int x;
-					cout << "Kelinta sarasa norite spausdinti? 1-5\n";
+					cout << "Kelinta sarasa norite generuoti ir surusiuoti?  1-5\n";
 					cin >> x;
 					if (x > 5 || x < 1) {
 						throw 10;
