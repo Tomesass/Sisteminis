@@ -6,22 +6,31 @@ C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Header.h(10,11): warning C4101
 C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Header.h(11,11): warning C4101: 'nd3': unreferenced local variable
 C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Header.h(9,11): warning C4101: 'nd1': unreferenced local variable
 C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Header.h(13,11): warning C4101: 'nd5': unreferenced local variable
-C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(106,14): warning C4244: '=': conversion from 'unsigned __int64' to 'double', possible loss of data
-C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(127,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(132,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(76,7): warning C4101: 'paz': unreferenced local variable
-C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(116,15): warning C4101: 'error7': unreferenced local variable
-C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(141,14): warning C4101: 'error4': unreferenced local variable
-C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(186,15): warning C4244: '=': conversion from 'unsigned __int64' to 'double', possible loss of data
-C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(211,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(216,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(161,7): warning C4101: 'paz': unreferenced local variable
-C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(191,16): warning C4101: 'error5': unreferenced local variable
-C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(225,15): warning C4101: 'error4': unreferenced local variable
-C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(230,14): warning C4101: 'error3': unreferenced local variable
-C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(273,16): warning C4101: 'error6': unreferenced local variable
-C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(286,16): warning C4101: 'error7': unreferenced local variable
-C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(305,16): warning C4101: 'error2': unreferenced local variable
-C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(634,16): warning C4101: 'error10': unreferenced local variable
-C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(641,14): warning C4101: 'error': unreferenced local variable
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(99,14): warning C4244: '=': conversion from 'unsigned __int64' to 'double', possible loss of data
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(120,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(125,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(69,7): warning C4101: 'paz': unreferenced local variable
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(109,15): warning C4101: 'error7': unreferenced local variable
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(134,14): warning C4101: 'error4': unreferenced local variable
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(179,15): warning C4244: '=': conversion from 'unsigned __int64' to 'double', possible loss of data
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(204,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(209,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(154,7): warning C4101: 'paz': unreferenced local variable
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(184,16): warning C4101: 'error5': unreferenced local variable
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(218,15): warning C4101: 'error4': unreferenced local variable
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(223,14): warning C4101: 'error3': unreferenced local variable
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(266,16): warning C4101: 'error6': unreferenced local variable
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(279,16): warning C4101: 'error7': unreferenced local variable
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(298,16): warning C4101: 'error2': unreferenced local variable
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(627,16): warning C4101: 'error10': unreferenced local variable
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Main.cpp(634,14): warning C4101: 'error': unreferenced local variable
+  Source.cpp
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Header.h(14,11): warning C4101: 'egz': unreferenced local variable
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Header.h(18,12): warning C4101: 'galutinis': unreferenced local variable
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Header.h(12,11): warning C4101: 'nd4': unreferenced local variable
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Header.h(10,11): warning C4101: 'nd2': unreferenced local variable
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Header.h(11,11): warning C4101: 'nd3': unreferenced local variable
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Header.h(9,11): warning C4101: 'nd1': unreferenced local variable
+C:\Users\tomus\source\repos\Sisteminis\Sisteminis\Header.h(13,11): warning C4101: 'nd5': unreferenced local variable
+  Generating Code...
   Sisteminis.vcxproj -> C:\Users\tomus\source\repos\Sisteminis\x64\Debug\Sisteminis.exe
